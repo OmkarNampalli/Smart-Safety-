@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0cbe03cf93920710d16932ddfaba109b" extends="cmdb_ci" label="AI Devices" max_length="40" name="x_2059749_smart_0_ai_devices" type="collection">
+        <element choice="1" label="Device Category" max_length="40" name="device_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Safety Drones" sequence="0" value="Safety Drones"/>
+                <element inactive_on_update="false" label="Environmental Sensors" sequence="3" value="Environmental Sensors"/>
+                <element inactive_on_update="false" label="AR Glasses" sequence="1" value="AR Glasses"/>
+                <element inactive_on_update="false" label="Smart Hats" sequence="2" value="Smart Hats"/>
+            </choice>
+        </element>
+        <element label="Device Price" max_length="20" name="device_price" type="price"/>
+    </element>
+</database>

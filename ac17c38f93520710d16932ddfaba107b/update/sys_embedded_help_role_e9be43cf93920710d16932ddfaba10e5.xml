@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_2059749_smart_0.ai_device_usesr" name="x_2059749_smart_0.ai_device_usesr">9dbe43cf93920710d16932ddfaba10e1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-30 08:18:28</sys_created_on>
+        <sys_id>e9be43cf93920710d16932ddfaba10e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9dbe43cf93920710d16932ddfaba10e1</sys_name>
+        <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e9be43cf93920710d16932ddfaba10e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-30 08:18:28</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
