@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fec80f4393920710d16932ddfaba102f" extends="task" label="Device Request" max_length="40" name="x_2059749_smart_0_device_request" type="collection"/>
+    <element db_object_id="fec80f4393920710d16932ddfaba102f" extends="task" label="Device Request" max_length="40" name="x_2059749_smart_0_device_request" type="collection">
+        <element label="Model" max_length="40" name="model" read_only="true" type="string"/>
+        <element label="Delivery Date" max_length="255" name="delivery_date" type="glide_date"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Device Name" mandatory="true" max_length="32" name="device_name" reference="x_2059749_smart_0_ai_devices" type="reference"/>
+        <element choice="1" label="Delivery State" max_length="40" name="delivery_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="Cancelled"/>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="Delivered"/>
+            </choice>
+        </element>
+        <element label="Requester Name" mandatory="true" max_length="32" name="requester_name" reference="sys_user" type="reference"/>
+        <element label="Waranty Expiration" max_length="255" name="waranty_expiration" read_only="true" type="glide_date"/>
+        <element label="Price" max_length="20" name="price" read_only="true" type="price"/>
+        <element label="Device Description" max_length="2000" name="device_description" read_only="true" type="string"/>
+    </element>
 </database>

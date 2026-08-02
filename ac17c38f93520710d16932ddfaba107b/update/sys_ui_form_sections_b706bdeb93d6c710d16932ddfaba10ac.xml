@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b706bdeb93d6c710d16932ddfaba10ac" sys_domain="global" table="x_2059749_smart_0_device_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-31 15:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3706bdeb93d6c710d16932ddfaba10b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2059749_smart_0_device_request" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">b706bdeb93d6c710d16932ddfaba10ac</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">efc8cb4393920710d16932ddfaba10e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-31 15:08:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-31 15:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f06bdeb93d6c710d16932ddfaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2059749_smart_0_device_request" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">b706bdeb93d6c710d16932ddfaba10ac</sys_ui_form>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">3b06bdeb93d6c710d16932ddfaba10a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-31 15:08:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-31 15:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c16bdeb93d6c710d16932ddfaba10d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2059749_smart_0_device_request" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">b706bdeb93d6c710d16932ddfaba10ac</sys_ui_form>
+            <sys_ui_section caption="Delivery Details" display_value="Delivery Details" name="x_2059749_smart_0_device_request" sys_domain="global" view="Default view">ff06bdeb93d6c710d16932ddfaba10aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-31 15:08:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2059749_smart_0_device_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-31 15:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b706bdeb93d6c710d16932ddfaba10ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2059749_smart_0_device_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b706bdeb93d6c710d16932ddfaba10ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-31 15:08:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
