@@ -4,6 +4,7 @@
         <element label="Delivery Date" max_length="255" name="delivery_date" type="glide_date"/>
         <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
         <element label="Device Name" mandatory="true" max_length="32" name="device_name" reference="x_2059749_smart_0_ai_devices" type="reference"/>
+        <element label="Cost" max_length="40" name="cost" read_only="true" type="string"/>
         <element choice="1" label="Delivery State" max_length="40" name="delivery_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cancelled" sequence="1" value="Cancelled"/>

@@ -20,16 +20,25 @@
 
    g_form.setSectionDisplay('device_details',true);
    g_form.setSectionDisplay('delivery_details',true);
+
+   g_form.getReference('device_name',getDetails);
    }
 
-}]]></script>
+}
+
+function getDetails(details){
+	g_form.setValue('model',details.model_number);
+	g_form.setValue('price',details.device_price);
+	g_form.setValue('device_description',details.short_description);
+	g_form.setValue('waranty_expiration',details.warranty_expiration);
+       }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-01 09:10:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2bfc61b3935a4b10d16932ddfaba101e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Hide The Sections</sys_name>
         <sys_overrides/>
         <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
@@ -37,7 +46,7 @@
         <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
         <sys_update_name>sys_script_client_2bfc61b3935a4b10d16932ddfaba101e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-01 15:32:50</sys_updated_on>
+        <sys_updated_on>2026-08-03 10:50:46</sys_updated_on>
         <table>x_2059749_smart_0_device_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
