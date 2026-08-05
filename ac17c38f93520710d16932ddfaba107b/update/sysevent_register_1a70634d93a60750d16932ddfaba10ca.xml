@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_2059749_smart_0.pickup</event_name>
+        <fired_by>Scheduled Job : Check for delivery failed records</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>pickup</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 14:45:44</sys_created_on>
+        <sys_id>1a70634d93a60750d16932ddfaba10ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2059749_smart_0.pickup</sys_name>
+        <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
+        <sys_update_name>sysevent_register_1a70634d93a60750d16932ddfaba10ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 14:45:44</sys_updated_on>
+        <table/>
+    </sysevent_register>
+</record_update>
