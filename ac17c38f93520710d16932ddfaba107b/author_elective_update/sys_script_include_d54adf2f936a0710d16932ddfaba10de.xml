@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2059749_smart_0.updateWorkNotes</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>updateWorkNotes</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function updateWorkNotes(problemID,workNotes){
+	var problem = new GlideRecord('problem');
+	problem.addQuery('sys_id',problemID);
+	problem.query();
+	if(problem.next()){
+		problem.work_notes = workNotes + '(From related incident)';
+		problem.update();
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-13 08:47:04</sys_created_on>
+        <sys_id>d54adf2f936a0710d16932ddfaba10de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>updateWorkNotes</sys_name>
+        <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
+        <sys_update_name>sys_script_include_d54adf2f936a0710d16932ddfaba10de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-13 09:03:03</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</application>
+        <file_path/>
+        <instance_id>2bb8860e3bc2839cbaf6048aa4e45ab1</instance_id>
+        <instance_name>dev436356</instance_name>
+        <name>sys_script_include_d54adf2f936a0710d16932ddfaba10de</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_2059749_smart_0.updateWorkNotes&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;updateWorkNotes&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[function updateWorkNotes(problemID,workNotes){
+	var problem = new GlideRecord('problem');
+	problem.addQuery('sys_id',problemID);
+	problem.query();
+	if(problem.next()){
+		problem.work_notes = workNotes + '(From related incident)';
+		problem.update();
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-13 08:47:04&lt;/sys_created_on&gt;&lt;sys_id&gt;d54adf2f936a0710d16932ddfaba10de&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;updateWorkNotes&lt;/sys_name&gt;&lt;sys_package display_value="Smart Safety" source="x_2059749_smart_0"&gt;ac17c38f93520710d16932ddfaba107b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Smart Safety"&gt;ac17c38f93520710d16932ddfaba107b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_d54adf2f936a0710d16932ddfaba10de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-13 09:03:03&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2051199599</payload_hash>
+        <record_name>updateWorkNotes</record_name>
+        <reverted_from/>
+        <source>cb063deb93d6c710d16932ddfaba10b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-13 09:03:03</sys_created_on>
+        <sys_id>8f2f1be793aa0710d16932ddfaba108a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ffa5c57980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-13 09:03:03</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0b2f1be783aa07109f62f09ad6eaee89</update_guid>
+        <update_guid_history>0b2f1be783aa07109f62f09ad6eaee89:-2051199599,558bdbafba6a071025501d7ce5a5ff8e:1507030646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 14:07:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>01a6037e12024d2d8003f2db995a20a1</sys_id>
+        <sys_metadata>d54adf2f936a0710d16932ddfaba10de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>updateWorkNotes</sys_name>
+        <sys_package display_value="Smart Safety" source="x_2059749_smart_0">ac17c38f93520710d16932ddfaba107b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Smart Safety">ac17c38f93520710d16932ddfaba107b</sys_scope>
+        <sys_scope_delete display_value="">1964c0e8f06249988b10e77290753210</sys_scope_delete>
+        <sys_update_name>sys_script_include_d54adf2f936a0710d16932ddfaba10de</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d54adf2f936a0710d16932ddfaba10de">8f2f1be793aa0710d16932ddfaba108a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 14:07:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
